@@ -11,7 +11,9 @@ public class Hooks {
     public void setUp()
     {
         BaseClass.initializeBrowser();
+         System.out.println("Done");
     }
+   
 
     @After
     public void tearDown(Scenario scenario)
